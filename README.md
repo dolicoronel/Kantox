@@ -1,9 +1,10 @@
 # Kantox
 Kantox Technical Evaluation
-Overview
+
+1-Overview
 This project is a Java implementation of automated testing using the Selenium WebDriver. Selenium is an open-source tool that allows you to automate web browsers, making it an ideal choice for testing web applications. 
 
-1- Requirements
+2- Requirements
 
 Java Development Kit (JDK) 8 or later
 Apache Maven 3.5.0 or later
@@ -12,7 +13,7 @@ Firefox or Chrome web browser
 
 
 
-2- Installation
+3- Installation
 
 Clone the repository to your local machine:
 git clone https://github.com/[username]/java-selenium-project.git
@@ -28,7 +29,7 @@ mvn clean install
 
 
 
-3- Usage
+4- Usage
 The project contains several tests a Simple cashier function that adds products to a cart and displays the total price. 
 To run a test, simply execute the following command:
 
@@ -39,5 +40,5 @@ mvn test -Dtest=LoginTest
 
 
 
-4- Configuration
+5- Configuration
 The project can be configured to use either Firefox or Chrome as the web browser for testing. To configure the browser, open the src/main/resources/config.properties file and set the browser property to either firefox or chrome.
