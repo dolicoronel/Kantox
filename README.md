@@ -2,6 +2,7 @@
 Kantox Technical Evaluation
 
 1-Overview
+
 This project is a Java implementation of automated testing using the Selenium WebDriver. Selenium is an open-source tool that allows you to automate web browsers, making it an ideal choice for testing web applications. 
 
 2- Requirements
